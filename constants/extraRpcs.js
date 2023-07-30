@@ -2962,6 +2962,10 @@ export const extraRpcs = {
   1708: {
     rpcs: ["https://rpc.testnet.blockchain.or.th"]
   },
+  16507: {
+    rpcs: [ "https://rpc.genesys.network"]
+  },
+  
 };
 
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
